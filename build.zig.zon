@@ -1,0 +1,23 @@
+.{
+    .name = .screen_capture_lite,
+    .version = "0.0.1",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/smasherprog/screen_capture_lite.git#0c5beb0e3c5e4f9e0fcc9203025a80ad5164e6a4",
+            .hash = "N-V-__8AAF-nRgAREx4Oq7yTqjN1VCbnFtpB9HFfOrt2zZAf",
+        },
+        .@"wio-unix-headers" = .{
+            .url = "git+https://github.com/ypsvlq/wio-unix-headers#3bd227608c8fc7e4cd8547e43966b60f81c4caf3",
+            .hash = "wio_unix_headers-0.0.0-seffXF_FQQC9vaRGpzc1-w6M8YktDc2qzlOgItxv6kWO",
+            .lazy = true,
+        },
+        .@"x11-headers" = .{
+            .url = "git+https://github.com/allyourcodebase/x11-headers.git#947022308236478b13fd39b638bf8a2264725751",
+            .hash = "N-V-__8AAJaARwDVWtryGrmN1iiu2qeZKabbbr9H1GCKrTiN",
+            .lazy = true,
+        },
+    },
+    .minimum_zig_version = "0.17.0-dev.1770+5d7cf3f34",
+    .fingerprint = 0x4f98df1783f7f63f,
+    .paths = .{"src"},
+}
